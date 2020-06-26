@@ -1,0 +1,291 @@
+/************ 
+//--------------------------------
+// GENERAL
+//-------------------------------
+************/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+
+	line-height: 1.5em;
+	padding-top: 80px;
+}
+
+h1 {
+	font-size: 80px;
+	line-height: 50px;
+	text-align: right;
+	font-weight: 800;
+	font-family: cursive;
+	margin-right: 0.5em;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+/************ 
+//-------------------------------
+// CABECERA
+//-------------------------------
+************/
+#main-header {
+	background: rgb(27, 226, 37);
+	color: white;
+	font-size: 30px;
+	height: 190px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}	
+#main-header a {
+color: white;
+text-align: center;
+padding-top: 65px;
+
+}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 0px 0px 0px 40px;
+	text-decoration: none;
+}
+#logo-header:hover {
+	color: #dbf39b;
+}
+	
+#logo-header .site-name {
+	display: block;
+	font-size: 50px;
+	text-shadow: -4px 3px 0 #216d3d;
+}
+
+#logo-header .site-desc {
+	display: block;
+	font-size: 20px;
+	padding-top: 10px;
+	color: rgba(168, 255, 172, 0.856);
+}
+
+
+/*
+ * Navegación
+*/
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+	
+
+
+
+/************ 
+//------------------------------
+// CONTENIDO
+//------------------------------
+************/
+#main-content {
+	background-color: rgba(0, 0, 0, 0.856);
+	width: 1200px;
+	max-width: 1200px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+	padding-top: 40px;
+}
+
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+	
+
+
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+#main-footer {
+	background: rgb(27, 226, 37);
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+
+
+  /*botones css*/
+
+div.contenedor{
+  width: 121px;
+  height: 160px;
+  float:right;
+  padding-top: 30px;
+  -webkit-transition: height 0.4s;
+  font-size: 15px;
+  color: whitesmoke;
+  text-align: center;
+  opacity: 1;
+}
+
+div#uno{
+  background-color:  rgb(23, 212, 33);
+}
+
+div#dos{
+  background-color:  rgb(37, 248, 48);
+}
+
+div#tres{
+  background-color:  rgb(23, 212, 33);
+}
+
+div#cuatro{
+  background-color:  rgb(37, 248, 48);
+}
+
+div#cinco{
+  background-color:  rgb(23, 212, 33);
+}
+
+
+img.icon{
+	display: block;
+	margin: 0px auto;
+	background-color: rgba(255, 255, 255, 0.521);
+	width: 40px;
+	padding:20px;
+	-webkit-border-radius:5%;
+	-webkit-box-shadow: 0px 0px 0px 60px rgb(202, 88, 88,0);
+	-webkit-transition: box-shadow 0.5s ;
+  }
+
+
+  p.texto{
+	font-size: 0.5cm;
+	color: rgb(2, 78, 12);
+	text-align: center;
+	padding-top: 30px;
+	opacity: 0.4;
+	-webkit-transition: padding-top 0.4s;
+  
+}
+
+
+div.contenedor:hover{
+	height: 175px;
+	
+}
+
+div.contenedor:hover p.texto{
+	padding-top: 40px;
+	opacity: 1;
+}
+
+div.contenedor:hover img.icon{
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,0.6);
+}
+
+div#general{
+	margin: auto;
+	margin-top: 120px;
+	width: 1250px;
+	height: 960px;
+	background-color: rgba(212, 247, 236, 0.74);
+}
+
+div#lateral{
+	float: right;
+	background-image: url('../image/fondop1.jpg');
+	background-repeat: no-repeat;
+	background-size: 507px;
+	background-position: center;
+	height: 450px;
+	width: 592px;
+}
+
+div#top{
+	width: 640px;
+	height: 120px;
+	background-color:rgba(212, 247, 236, 0.74);;
+	line-height: 100px;
+	text-align:center;
+	font-size: 60px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.top > p1{
+	display:inline-block;
+	vertical-align:middle;
+	line-height:normal;
+}
+
+div#body{
+	width: 640px;
+	height: 330px;
+	background: rgba(212, 247, 236, 0.74);
+	line-height: 320px;
+	text-align:center;
+	font-size: 25px;
+}
+
+.cp > p2{
+	display:inline-block;
+	vertical-align:middle;
+	line-height: normal;
+}
+
+div#seg{
+	float: right;
+	background: rgba(212, 247, 236, 0.74);
+	height: 498px;
+	width: 592px;
+	line-height: 480px;
+	text-align:center;
+	font-size: 25px;
+	
+}
+
+
+
+div#ter{
+	float: left;
+	background-image: url('../image/Quinoa-1.jpg');
+	background-repeat: no-repeat;
+	background-size: 507px;
+	background-position: center;
+	height: 450px;
+	width: 592px;	
+}
