@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	height: 80px;
+	display: block;
+	background-color: #101010;
+}
+
+.inner_header{
+	width: 70%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.logo{
+	height: 100%;
+	display: table;
+	float: left;
+
+}
+.logo h1{
+	color:white;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Montserrat';
+	font-size: 20px;
+	font-weight: 2000;
+}
+
+.logo span{
+	font-weight: 220;
+}
+
+.nave{
+	height: 100%;;
+	float: right;
+}
+
+.nave a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+}
+
+.nave a:last-child{
+	padding-right: 0;
+
+}
+
+.nave a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 20px;
+}
+
+#main-footer {
+	background: rgb(0, 0, 0);
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+	width: 100%;
+	font-family: 'Montserrat';
+	
+}
+#main-footer p {
+	margin: 0;
+}
+	
+#main-footer a {
+	color: white;
+}
+
+.part1{
+	
+	width: 100%;
+	height: 550PX;
+	background-image: url("../image/fondo.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.lema{
+	padding-top:200px ;
+	width: 500px;
+	height: 200px;
+	text-shadow: 0.3em 0.5em 0.9em white;
+}
+
+h2{
+	font-size: 70px;
+	line-height: 51px;
+	margin-left: 20px;
+	align-content: stretch;
+	
+}
+
+
+.part2{
+	
+	width:100%;
+	height: 500px;
+	
+}
+
+.tit1{
+	padding-top: 40px;
+	margin-left: 20px;
+	margin-top: 30px;
+	width: 500px;
+	height: 30px;
+	text-shadow: 0.3em 0.5em 0.9em white;
+	font-family: 'Montserrat';
+}
+
+.tex2{
+	margin-left: 30px;
+	padding-top:10px ;
+	width: 500px;
+	height: 50px;
+	
+	font-family: "Arial";
+}
+
+.tex3{
+
+	float: left;
+	margin-left: 30px;
+	padding-top:10px ;
+	width: 500px;
+	height: 120px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	
+	text-align: justify;
+}
+
+.im{
+	margin-top: -90px;
+	margin-right: 200px;
+	float: right;
+	width: 400px;
+	height: 400px;
+	background-image: url("../image/CONS.jpg");
+}

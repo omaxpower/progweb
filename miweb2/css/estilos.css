@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+    width: 100%;
+    height: auto;    
+    position: absolute;
+}
+
+.fondo{
+    width: 100%;
+    max-width: max-content;
+    margin: auto;
+    background-image: url("../image/fondo.jpg");
+    margin-top: 80px;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .menu{
+    width: 200px;
+    height: 445px;
+}
+
+.menu{
+    position: fixed;
+    top: 79px;
+    width: 0px;
+    height: 0px;
+    background-color: rgb(253, 253, 253);
+    transition: all 500ms cubic-bezier(1,0,0,1);
+    transition-timing-function: cubic-bezier(1,0,0,1);
+    overflow: hidden;
+}
+.menu li{
+    list-style: none;
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 300ms;
+    display: block;
+    width: 400px;
+    font-size: 20px;
+}
+
+.menu li:hover{
+    background:#b89c51;
+}
+
+article{
+    padding: 40px;
+}
+
+.content-all label{
+    position: fixed;
+    width: 100%;
+    max-width: 1000px;
+    top: 14px;
+    left: 14px;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    z-index: 10;
+    user-select: none;
+}
+
+.content-all h2{
+    position: fixed;
+    width: 100%;
+    max-width: 1000px;
+    top: 5px;
+    right: 20px;
+    font-size: 26px;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    user-select: none;
+}
+
+article h1{
+    text-align: left;
+    font-size: 90px;
+    color: white;
+    font-weight: 200px;
+    margin-top: 20px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    user-select: none;
+}
+
+article .parrafo1{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+article img{
+    width: 50%;
+    border: 4px solid white;
+    margin-top: 40px;
+    margin-left: 350px;
+    
+}
+
+article .parrafo2{
+    font-size: 60px;
+    color: white;
+    margin-top: 40px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+    user-select: none;
+    font-weight: 600;
+}
+
+.serv{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    height: 370px;
+    width: 1267px;
+    background-color: rgba(255, 255, 255,0.5);
+    margin-top: 30px;
+}
+
+div#priv{
+    margin-top: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(40, 40, 146);
+
+}
+
+div#grup{
+    margin-top: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(137, 137, 180);
+
+}
+
+div#trans{
+    margin-top: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(168, 168, 235);
+
+}
+
+div#hosp{
+    margin-top: 0;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(211, 211, 241);
+
+}
+
+/*footer*/
+
+footer {
+	width: 100%;
+	font-family: Raleway;
+}
+
+.footer-container {
+	width: 100%;
+	background: white;
+}
+
+.footer-main {
+	width: 98%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 50px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-main .footer-columna {
+	width: calc(100% / 3);
+    text-align: left;
+    color:rgb(124, 121, 121);
+}
+
+
+.footer-main .footer-columna:nth-child(2) {
+	padding: 0 20px;
+}
+
+.footer-main .footer-columna h3 {
+	font-size: 32px;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.footer-main .footer-columna input[type="email"] {
+	border: none;
+	width: 100%;
+	border: 2.5px solid #000000;
+	font-size: 14px;
+	padding: 10px;
+	font-family: sans-serif;
+}
+
+.footer-main .footer-columna input[type="submit"] {
+	border: none;
+	background: #b89c51;
+	color:black;
+	padding: 10px 40px;
+	font-size: 18px;
+	margin-top: 10px;
+	cursor: pointer;
+	font-family: Raleway;
+}
+
+/*botones*/
+
+.button{
+    background: #b89c51;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-size: 25px;
+    margin: 0px;
+    padding-top: 10px 0px;
+    text-align: center;
+    width: 300px;
+    text-decoration:none ;
+    box-shadow: 0px 3px 0px #000000;
+    box-shadow: 0px 3px 0px #6e6037;
+    font-family: times;
+}
+
+.button.radius{
+    border-radius: 5px;
+}
+
+.button:hover{
+    box-shadow: 0px 0px 0px;
+    padding-bottom: 5px;
+    background-color: #6e6037);
+}
+
+
