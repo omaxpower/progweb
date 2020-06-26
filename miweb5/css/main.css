@@ -1,0 +1,192 @@
+body{
+  padding: 0px;
+  margin: 0;
+  font-family: Arial;
+}
+
+span{
+  position: relative;
+  }
+
+span::after{
+  background-color: #fff000;
+  content: '';
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  z-index: -1;
+}
+
+p a{
+  color: #184DA9;
+  text-decoration: none;
+}
+
+p a:hover{
+  text-decoration: underline;
+}
+
+.center-align{
+  margin: 0px;
+  width: 1200px;
+}
+.color-black{color: black;}
+.color-red{color: red;}
+.color-white{color: white;}
+.section-columns{}
+.section-columns > div{
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+
+.section-columns h2{
+  font-size: 70px;
+}
+
+.section-columns h5{
+  font-size: 40px;
+  text-align: center;
+}
+
+#intro-container .section-columns h2{
+  padding-top: 50px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.section-columns h3{
+  font-size: 26px;
+  font-weight: lighter;
+  line-height: 40px;
+}
+
+.section-columns p{
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+
+.section-columns #image-bg{
+    background-image: url('../image/portada.png');
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: right center;
+  height: 450px;
+}
+
+.section-columns #bio{
+  height: 600px;
+}
+
+#work{
+  margin-top: -50px;
+  padding: 150px;
+  background-image: url('../image/REC.png');
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position:right;
+  height: 380px;
+}
+#wor{
+  margin-top: -50px;
+  padding: 150px;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position:right center;
+  height: 380px;
+}
+
+.rectangle{
+  height: 100px;
+  margin-top: -100px;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.bg-gray{
+  background-color: gray;
+}
+
+.skew-left{
+  transform: skewY(0deg);
+}
+
+.skew-right{
+  transform: skewY(4deg);
+}
+
+.btn{
+  border:solid 1px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn-black{
+  border-color: black;
+  color: black;
+}
+
+.btn-black:hover{
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+
+.btn-white{
+  border-color: white;
+  color: white;
+}
+
+.btn-white:hover{
+  background-color: white;
+  border-color: black;
+  color: black;
+}
+
+#intro-container{
+  background-color: black;
+  height: 750px;
+
+}
+#intro-container menu{
+  padding: 0;
+  margin: 0;
+}
+#intro-container menu div{
+  display: inline-block;
+  vertical-align: top;
+}
+#intro-container menu #logo{
+  width: 9%;
+  }
+#intro-container menu #menu-lista{
+  width: 100%;
+  text-align: right;
+  }
+#intro-container menu #menu-lista ul{
+  margin: 0;
+  padding: 0;
+  }
+#intro-container menu #menu-lista ul li{
+  display: inline-block;
+  padding: 0;
+  margin: 19px;
+  list-style: none;
+}
+#intro-container menu #menu-lista ul li a{
+  color: #777;
+  text-decoration: none;
+}
+
+#intro-container menu #menu-lista ul li a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+#intro-container menu #menu-lista ul li a{}
